@@ -1,0 +1,28 @@
+.emoji{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+}
+
+.card{
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(54, 54, 54);
+}
+
+.emoji{
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); 
+}
+
+.card-header-title, #region-container{
+  border-bottom: solid;
+  border-color: rgb(54, 54, 54);
+}
+
+#region-container{
+  border-top: none;
+  border-bottom: 1px solid #ededed;
+  
+}

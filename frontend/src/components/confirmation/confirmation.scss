@@ -1,0 +1,37 @@
+
+.confirmation-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.confirmation-central {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: white;
+  border: 5px solid rgb(65, 65, 65);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.conf-h1, .conf-h2, .conf-button {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.conf-h2 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.conf-cow-column{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.earnCredits-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+  padding-bottom: 3rem;
+  height: 100vh; 
+}
+
+.earn-credits-heading{
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.box-credits {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  width: 30%;
+  background-color: grey;
+  color: black;
+  border: black 5px groove;
+}
+
+.button-earn-credits {
+  background-color: green;
+  border-radius: 100px;
+  border: black groove 5px;
+  padding: 10px 25px;
+  font-size: 20px;
+}

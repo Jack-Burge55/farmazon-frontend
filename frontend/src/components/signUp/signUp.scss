@@ -1,0 +1,78 @@
+.signup-body {
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(245, 245, 245, 0.9);
+}
+
+.signup-h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: -20px;
+  padding: 0;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#farmName, #email, #passwordConfirmation, #password, #username{
+  padding: 0.875rem;
+  margin-top: 0.25rem;
+  border-style: solid;
+  &:placeholder {
+    font-size: 1.2rem;
+  }
+}
+
+.signup-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  & .signup-input {
+    margin-top: 0;
+  }
+}
+
+.signup-button {
+  margin-top: 2rem;
+  background-color: #2a6fb1;
+  color: #fff;
+  align-self: center;
+  padding: 0.5rem 2rem;
+  border-radius: 3px;
+  font-size: 1.25rem;
+}
+
+.error {
+  color: rgb(224, 18, 18);
+}
+
+.signup-link-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  .signup-link-text, .signup-link-button{
+    margin: 0;
+    padding: 0;
+  }
+
+  .signup-link-button{
+    background-color: transparent;
+    border: none;
+    color: rgb(8, 139, 107);
+  }
+
+  .signup-link-button:hover{
+    cursor: pointer;
+  }
+}

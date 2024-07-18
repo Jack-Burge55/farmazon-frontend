@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Merienda&family=Pangolin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Fredoka+One&family=Luckiest+Guy&family=Press+Start+2P&family=Righteous&family=Sigmar+One&display=swap');
+
+.card-header-title{
+  font-family: "Permanent Marker";
+}
+
+.card-footer-item{
+  font-family: "Gloria Hallelujah";
+}
+
+.navbar-item{
+  font-family:"Fredoka One";
+}
+
+*{
+  font-family:"Pangolin";
+}
+
+html,
+body {
+  display:flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+$dark: rgb(150, 213, 241);
+
+$navbar-height: 4rem;
+$navbar-item-img-max-height: 10rem;
+
+$navbar-background-color: rgb(81, 194, 231);
+
+$navbar-item-color: white;
+
+$navbar-item-hover-color: gold;
+
+$navbar-item-hover-background-color: rgb(81, 194, 231);
+
+$navbar-item-active-color: darkgrey;
+
+#conf-navbar {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.music-player{
+  background-color: rgb(67, 162, 206);
+}
+
+$navbar-background-color: linear-gradient(rgb(67, 162, 206), rgb(40, 136, 201));
+
+.navbar{
+  background-image: $navbar-background-color;
+}
+
+.body, html{
+  background: url("./clouds-sharpened.png");
+}
+
+.audio-container{
+  margin-top: 500px;
+}
+
+@import "~bulma/bulma.sass";

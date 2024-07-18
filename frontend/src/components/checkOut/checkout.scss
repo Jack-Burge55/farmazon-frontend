@@ -1,0 +1,41 @@
+.checkout-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkout-central {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: white;
+  border: 5px solid rgb(65, 65, 65);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.cout-h1, .cout-h2, .cout-button {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cout-h1 {
+  font-size: 30px;
+}
+
+.cout-h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cout-cow-column{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
